@@ -1,7 +1,7 @@
 {
-  "name": " ",
+  "name": "RPG",
   "version": "1.0.0",
-  "description": "",
+  "description": "#### _An application for compliling a list of your favorite movies, July 1st, 2020_",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode development",
@@ -35,5 +35,13 @@
     "bootstrap": "4.5.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasglenngit/RPG.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thomasglenngit/RPG/issues"
+  },
+  "homepage": "https://github.com/thomasglenngit/RPG#readme"
 }
