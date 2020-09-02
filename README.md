@@ -1,34 +1,25 @@
 
-# _Movie Finder_
+# _The Breakfast Club_
 
-#### _An application for compliling a list of your favorite movies, July 1st, 2020_
+#### _A High School Roleplay Game_
 
-#### By _**Mariel Hamson, Joseph Pearce, Thomas Glenn**_
+#### By _**Kyle Hubbard, Hannah Beinstein, Thomas Glenn**_
 
 ## Description
-
-_._
-
-| Spec   |    Input    |  Output | Completed |
-|:----------|:-------------|:------| :-------- |
-| The program should take in a movie title request | "Movie Title" | no output |    |
-| The program should match the movie request with an API call | "Beastman" | "a;djfaksjdfja |  |
-| The program should return the movie title (and synopsis) | "Terminator"  | "Terminator" "He kills everyone"  |   
-| The program should add the movie title to the user's "favorites" list |  |  |   |
-| The program should display the user's favorites movie list |  |  |  |
+Are you a jock, dweeb, nerd, prep or cheerleader? Choose your avatar, interact, accumulate points, or even do battle with other avatars in this role play game. 
 
 ## Setup/Installation Requirements
 
-* Clone file from https://github.com/thomasglenngit/movieFinder as a .zip file. 
+* Clone file from https://github.com/thomasglenngit/RPG as a .zip file. 
 * When .zip file appears in your desktop, click on file called, "index.html".
 * This will open the application in your web-browser.
 * Enjoy the result!
-* Alternatively, view this application on your web browser at: https://thomasglenngit.github.io/movieFinder
+* Alternatively, view this application on your web browser at: https://thomasglenngit.github.io/RPG
 
 
 ## Known Bugs
 
-_At the present moment, there are no known bugs. (6.22.2020).
+_At the present moment, there are no known bugs. (9.2.2020).
 
 ## Support and contact details
 
@@ -37,7 +28,7 @@ Contact me for any concerns about this application:
 
 ## Technologies Used
 
-.html, .css, JavaScript, Bootstrap-3.4.1, jQuery-3.5.1
+.html, .css, JavaScript, Bootstrap-3.4.1, Webpack, Node.js, jQuery-3.5.1
 
 ### License
 
