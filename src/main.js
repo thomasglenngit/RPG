@@ -13,14 +13,6 @@
 // DebateTeam = changeState
 // footballjock = jock(FootballTeam)
 
-// let Jock = { Intelligence: 1, Attraction: 20, Coolness: 15, Hygiene: 10 }
-// let Banger = { Intelligence: 4, Attraction: 8, Coolness: 14, Hygiene: 7 }
-// let Nerd = { Intelligence: 20, Attraction: 4, Coolness: 1, Hygiene: 7 }
-// let Prep = { Intelligence: 10, Attraction: 15, Coolness: 8, Hygiene: 20 }
-// let Dweeb = { Intelligence: 1, Attraction: 0, Coolness: 0, Hygiene: 0 }
-// let Barbie = { Intelligence: 7, Attraction: 20, Coolness: 15, Hygiene: 10 }
-// let Goth = { Intelligence: 10, Attraction: 5, Coolness: 8, Hygiene: 7 }
-
 
 // const addAdditionalStateChange = (prop) => {
 //   return (value) => {
@@ -31,7 +23,7 @@
 //   }
 // }
 
-let Template = { Intelligence: 0, Attraction: 0, Coolness: 0, Hygiene: 0 }
+
 
 const storeState = (initialState = {}) => {
   let currentState = initialState;
@@ -42,15 +34,15 @@ const storeState = (initialState = {}) => {
   }
 }
 
-const changeState = (prop) => {
-  return (value) => {
-    return (state) => ({
-      ...state,
-      [prop] : (state[prop] || 0) + value
+// const changeState = (prop) => {
+//   return (value) => {
+//     return (state) => ({
+//       ...state,
+//       [prop] : (state[prop] || 0) + value
       
-    })
-  }
-}
+//     })
+//   }
+// }
 
 const changeState = (intelNum) => {
   return (attractionNum) => {
@@ -58,22 +50,52 @@ const changeState = (intelNum) => {
       return (hygieneNum) => {
         return (state) => ({
           ...state,
-          Intelligence: (state[Intelligence] || 0) + intelNum, 
-          Attraction: (state[Attraction] || 0) + attractionNum,
-          Coolness: (state[Coolness] || 0) + coolnessNum,
-          Hygiene: (state[Hygenie] || 0) + hygieneNum 
+          Intelligence : (state.Intelligence || 0) + intelNum, 
+          Attraction: (state.Attraction || 0) + attractionNum,
+          Coolness: (state.Coolness || 0) + coolnessNum,
+          Hygiene: (state.Hygiene || 0) + hygieneNum 
         })
       }
     }
   }
 }
 
-jockTemplate = changeState(10)(45)
-const Character = storeState(Template);
-const updatePlayer = changeState("playerName")
+//Character Store States (everyone starts at 0):
+const CharacterJock = storeState();
+const CharacterBanger = storeState();
+const CharacterNerd = storeState();
+const CharacterPrep = storeState();
+const CharacterDweeb = storeState();
+const CharacterBarbie = storeState();
+const CharacterGoth = storeState();
 
-// const jockCHaracter = Character(jockTemplate)
+//Character Change States (preset template values):
+const jockTemplate = changeState(1)(20)(15)(10);
+const bangerTemplate = changeState(4)(8)(14)(7);
+const nerdTemplate = changeState(20)(4)(1)(7);
+const prepTemplate = changeState(10)(15)(8)(20);
+const dweebTemplate = changeState(1)(0)(0)(0);
+const barbieTemplate = changeState(7)(20)(15)(10);
+const gothTemplate = changeState(10)(5)(8)(7);
+const joinFootball = changeState(100)(100)(100)(100);
+const joinMetalShop = changeState(20)(5)(20)(-8);
 
+//Character template assignments:
+const jockCharacter = CharacterJock(jockTemplate);
+const bangerCharacter = CharacterBanger(bangerTemplate);
+const nerdCharacter = CharacterNerd(nerdTemplate);
+const prepCharacter = CharacterPrep(prepTemplate);
+const dweebCharacter = CharacterDweeb(dweebTemplate);
+const barbieCharacter = CharacterBarbie(barbieTemplate);
+const gothCharacter = CharacterGoth(gothTemplate);
 
+//Level up opportunities:
+const FootballJock = CharacterJock(joinFootball);
+const nerd = CharacterNerd(joinFootball);
+console.log(nerd); 
 
+// jockCharacter(Character(storeState(currentState)))
+// jockCharacter = storestate()(jocktemplate)
+//  jockCharacter = character(jockTemplate)
+//  jockCharacter
 
