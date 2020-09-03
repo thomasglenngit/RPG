@@ -29,15 +29,9 @@
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "4.39.3",
     "webpack-cli": "^3.3.8",
-<<<<<<< HEAD
     "webpack-dev-server": "^3.8.0",
     "serialize-javascript": ">=3.1.0"
     
-=======
-    "webpack-dev-server": "^3.8.0"
-    "serialize-javascript": ">=3.1.0"
-}
->>>>>>> d29fb9f337a8c341f8560d3afb4246ca147ec7b6
   },
   "dependencies": {
     "bootstrap": "4.5.0",
