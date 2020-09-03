@@ -67,8 +67,6 @@ export const breakupSweetheart = (currentState) => { return ({
   }) 
 }
 
-
-
 export const changeState = (intelNum) => {
   return (attractionNum) => {
     return (coolnessNum) => {
