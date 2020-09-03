@@ -1,4 +1,4 @@
-<h1 align='center'><img width='900' height='450' src='https://peopledotcom.files.wordpress.com/2016/08/breakfast-club-1024.jpg'><br>
+<h1 align='center'><img width='900' height='450' src='http://a.abcnews.go.com/images/Entertainment/nc_breakfast_club_js_150213_16x9_992.jpg'><br>
 
 
 **<h1 align = 'center'>The Breakfast Club**
