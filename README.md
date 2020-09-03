@@ -4,7 +4,7 @@
 **<h1 align = 'center'>The Breakfast Club**
 
 
-*<h2 align ='center'>Where high school students come together (for better or worse...)*
+*<h2 align ='center'>Where high school students come together (for better or for worse...)*
 
 
 <h3 align ='center'>•<a href='#requirements'> Requirements</a> •<a href='#setup'> Setup</a> •<a href='#technologies-used'> Technologies</a> •<a href='#❤️contributors'> Contributors</a> •<a href='#protecting-your-data'> Protecting Data</a> •<a href='#cloning'> Cloning</a></h3>
