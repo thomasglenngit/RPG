@@ -1,43 +1,88 @@
-
-# _The Breakfast Club_
-
-#### _A High School Roleplay Game_
-
-#### By _**Kyle Hubbard, Hannah Beinstein, Thomas Glenn**_
-
-## Description
-Are you a jock, dweeb, nerd, prep or cheerleader? Choose your avatar, interact, accumulate points, or even do battle with other avatars in this role play game. 
-
-## Setup/Installation Requirements
-
-* Clone file from https://github.com/thomasglenngit/RPG as a .zip file. 
-* When .zip file appears in your desktop, click on file called, "index.html".
-* This will open the application in your web-browser.
-* Enjoy the result!
-* Alternatively, view this application on your web browser at: https://thomasglenngit.github.io/RPG
+<h1 align='center'><img width='900' height='450' src='https://peopledotcom.files.wordpress.com/2016/08/breakfast-club-1024.jpg'><br>
 
 
-## Known Bugs
+**<h1 align = 'center'>The Breakfast Club**
 
-_At the present moment, there are no known bugs. (9.2.2020).
 
-## Support and contact details
+*<h2 align ='center'>Where high school students come together (for better or worse...)*
 
-Contact me for any concerns about this application:
-<thomasgrantglenn@mac.com>
 
-## Technologies Used
+<h3 align ='center'>•<a href='#requirements'> Requirements</a> •<a href='#setup'> Setup</a> •<a href='#technologies-used'> Technologies</a> •<a href='#❤️contributors'> Contributors</a> •<a href='#protecting-your-data'> Protecting Data</a> •<a href='#cloning'> Cloning</a></h3>
 
-.html, .css, JavaScript, Bootstrap-3.4.1, Webpack, Node.js, jQuery-3.5.1
 
-### License
+<h3 align='center'>by Kyle Hubbard, Hannah Beinstein, and Thomas Glenn</h3>
 
-* This application is licensed under the MIT license:
+# **REQUIREMENTS**
 
-Copyright © 2020 **_Thomas Glenn_**
+_[Visual Studio Code](https://code.visualstudio.com/)_
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+_[Node.js](https://nodejs.org/en/)_
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+# **SETUP**
 
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## **CLONING**
+
+* Copy the repo link as shown in the image below
+
+![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/clone.gif 'How to clone repo')
+
+* Paste the link in the field provided by VsCode as thown in the image below
+
+* You will be prompted to open the directory once you have cloned it. Select 'open'
+
+![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/clone-github2.gif 'Cloning from Github within VSCode')
+
+<br>
+
+# **PROTECTING YOUR DATA**
+
+* Step 1: create a .gitignore file in the top level of your project directory. populate the file as shown in step 1 of the image below.
+
+* Step 2: commit that .gitignore file (this prevents your sensitive information like your API key being shown to others). **DO NOT PROCEED UNTIL YOU DO THIS!**
+
+![setup](https://coding-assets.s3-us-west-2.amazonaws.com/img/readme-image-3.jpg 'Set up instructions')
+
+<br>
+
+# **TECHNOLOGIES USED**
+
+_[Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)_
+
+_[Node.js](https://nodejs.org/en/)_
+
+_[Webpack](https://webpack.js.org/)_
+
+_[Visual Studio Code](https://code.visualstudio.com/)_
+
+<br>
+
+# **INSTALL**
+
+## **INSTALLING WITH NODE**
+
+
+with the root project folder open in your code editor, execute the following in your terminal:
+
+``cd ProjectName``
+
+``npm install``
+
+``npm run build``
+
+<br>
+
+# **❤️Contributors**
+
+[<img src='https://coding-assets.s3-us-west-2.amazonaws.com/linked-in-images/hannah-beinstein.jpeg' width='160px;'/><br /><sub><b>Hannah Beinstein</b></sub>](https://www.linkedin.com/in/hannahbeinstein/)<br />
+
+[<img src='https://coding-assets.s3-us-west-2.amazonaws.com/linked-in-images/kyle-hubbard.jpeg' width='160px;'/><br /><sub><b>Kyle Hubbard</b></sub>](https://www.linkedin.com/in/k-j-hubbard/)<br />
+
+[<img src='https://coding-assets.s3-us-west-2.amazonaws.com/linked-in-images/thomas-glenn.jpeg' width='160px;'/><br /><sub><b>Thomas Glenn</b></sub>](https://www.linkedin.com/in/glennergy/)<br />
+
+<br>
+
+<br>
+
+![alt text][logo]
+
+[logo]: https://img.shields.io/bower/l/bootstrap 'MIT License'
